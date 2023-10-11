@@ -24,8 +24,8 @@ export default function Page() {
             <div style={{position: 'relative', height: 'auto', width: '100%',display: 'flex', justifyContent: 'center'}}>
               <Image src='/Translation-icon.svg' alt='express' width={250} height={200} objectFit='cover' />
             </div>
-            <div style={{position: 'absolute', bottom: '0', width: '100%' ,zIndex: '1',backgroundColor:'bisque',opacity:'0.2'}}>
-              <h1 style={{opacity:'1'}}>Text Translation</h1>
+            <div style={{position: 'absolute', bottom: '0', width: '100%', zIndex: '1', backgroundColor: 'bisque', opacity: '0.6'}}>
+              <h1 style={{opacity: '1'}}>Text Translation</h1>
             </div>
           </div>
           <div className='border-2 text-center rounded-xl border-cyan-500' style={{height: '200px' , overflow: 'hidden', position: 'relative'}}>
