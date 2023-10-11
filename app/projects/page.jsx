@@ -24,7 +24,7 @@ export default function Page() {
             <div style={{position: 'relative', height: 'auto', width: '100%',display: 'flex', justifyContent: 'center'}}>
               <Image src='/Translation-icon.svg' alt='express' width={250} height={200} objectFit='cover' />
             </div>
-            <div style={{position: 'absolute', bottom: '0', width: '100%' ,zIndex: '1',backgroundColor:'bisque'}}>
+            <div style={{position: 'absolute', bottom: '0', width: '100%' ,zIndex: '1',backgroundColor:'bisque',opacity:'0.2'}}>
               <h1>Text Translation</h1>
             </div>
           </div>
