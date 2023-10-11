@@ -2,26 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ .main{
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,23,251,1) 0%, rgba(248,179,179,1) 48%, rgba(248,179,178,0.9790849445246849) 61%, rgba(249,84,53,1) 100%, rgba(248,192,118,1) 100%, rgba(236,146,20,1) 100%);
+ }
+.main2 {
+  background: linear-gradient(90deg, #d7f5db 0%, #f5e6e6 100%);
+ 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+ 
+  
+ .main2:hover{
+   transition-duration: 1000ms;
+   transition-timing-function:  ease-in-out;
+   box-shadow: 0 0 50px 15px #bfdff1;
+ }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+ #name,#name2{
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+ }
+
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+ }
+ .text_color{
+ 
+background: repeating-linear-gradient(to right, #8890f9 0%, #ef8987 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ .text_color:hover{
+   text-shadow: #bfdff1;
+ }
+ .vl {
+   border-left: 6px solid green;
+   height: 500px;
+   position: absolute;
+   left: 50%;
+   margin-left: -3px;
+   top: 0;
+ }
+
+ div.card > *{
+  background: #cacbcb;
+ }
