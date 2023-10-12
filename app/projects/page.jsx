@@ -67,14 +67,16 @@ export default function Page() {
             <div style={{position: 'absolute', bottom: '0', width: '100%',backgroundColor:'bisque'}}>
               <h1>Chat Gpt App</h1>
             </div>
-            <div className='border-2 text-center rounded-xl border-cyan-500' style={{height: '200px' , overflow: 'hidden', position: 'relative'}}>
+            
+          </div>
+          <div className='border-2 text-center rounded-xl border-cyan-500' style={{height: '200px' , overflow: 'hidden', position: 'relative'}}>
             <div style={{position: 'relative', height: 'auto', width: '100%',display:'flex', justifyContent:'center'}}>
               <Image src='/next.svg' alt='express' width={180} height={100} objectFit='cover' />
             </div>
             <div style={{position: 'absolute', bottom: '0', width: '100%',backgroundColor:'bisque'}}>
               <h1>NEXT.JS API CRUD APP</h1>
             </div>
-          </div>
+            
           </div>
         </div>
       </main>
