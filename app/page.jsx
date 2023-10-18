@@ -10,9 +10,9 @@ export default function Home() {
         
       <div className='flex flex-row items-center justify-center h-3 w-auto'>
             <div>
-              <Image src='/main.png' alt='main_image' width={100} height={70} className='rounded-full drop-shadow-2xl border-2 border-cyan-500'></Image>
+              <Image src='/main.png' alt='main_image' width={100} height={70} className='rounded-full drop-shadow-2xl shadow-lg shadow-cyan-500/50 border-2 border-cyan-500'></Image>
             </div>
-        <div className='intro ml-2 text-base text-cyan-600 m-28'>
+        <div className='intro ml-2 text-base text-red-600 m-28'>
               <h1>
                 <span id='name' className="text-4xl font-bold"> Hi, I am Manish</span>
               </h1>
