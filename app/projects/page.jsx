@@ -10,7 +10,7 @@ export default function Page() {
             PROJECTS
           </h1>
         </div>
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         
           <div className='border-2 text-center rounded-xl border-cyan-500' style={{height: '200px' , overflow: 'hidden', position: 'relative'}}>
             <div style={{position: 'relative', height: 'auto', width: '100%', display: 'flex', justifyContent: 'center'}}>
