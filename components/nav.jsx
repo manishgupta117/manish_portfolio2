@@ -3,7 +3,7 @@ import Link from 'next/link'
  
  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin ,faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function NavBar() {
      
@@ -26,16 +26,13 @@ export default function NavBar() {
                         </span>
                     </Link>
                     <span
-                        className='text-gray-500 hover:text-red-400 duration-200 font-bold text-xl px-4 cursor-pointer hover:fill-blue-500'
-                       
-                    >
+                        className='text-gray-500 hover:text-red-400 duration-200 font-bold text-xl px-4 cursor-pointer hover:fill-blue-500'>
                         <Link href={'https://www.linkedin.com/in/manish-gupta-a1b0bb222/'} className='fill-blue-500'> <FontAwesomeIcon icon={faLinkedin} className='fill-blue-500' /></Link>
-                        
                     </span>
                     <span
                         className='text-gray-500 hover:text-red-400 duration-200 font-bold text-xl px-4 cursor-pointer'
                        
-                    ><FontAwesomeIcon icon={faTwitter} /></span>
+                    ><FontAwesomeIcon icon={faGithub} /></span>
                      
                 </div>
             </nav>

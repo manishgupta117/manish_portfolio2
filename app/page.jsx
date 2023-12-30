@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
    <div className='flex flex-col mt-10'> 
-          <div className='main2 rounded-xl mt-16 p-5 bg-gray-100 w-1/2 border-2 border-blue-200'>
+          <div className='main2 sm:w-14 rounded-xl mt-16 p-5 bg-gray-100 w-1/2 border-2 border-blue-200'>
                 <h1 className="text-3xl font-bold mb-5 text-center text_color">ABOUT ME</h1>
                 <p className="text-lg text-justify">Hello, I&apos;m Manish, a passionate MERN Stack Developer with a knack for crafting dynamic web applications. With a strong foundation in MongoDB, Express.js, React, and Node.js, I bring ideas to life by seamlessly merging front-end and back-end technologies. My commitment to clean code and responsive design ensures that every project I undertake is user-friendly and performs flawlessly. I thrive on solving complex problems and continually expanding my skillset to stay at the forefront of web development trends. Explore my portfolio to see how I can transform your digital vision into reality.</p>
           </div>
@@ -47,11 +47,7 @@ export default function Home() {
             <p className="text-lg text-justify">In my free time, I have a diverse range of interests. I enjoy staying updated on the latest tech trends by reading tech blogs. For mental stimulation, I indulge in chess, a game that sharpens my strategic thinking. To unwind, I&apos;m an avid fan of movies and anime. Additionally, I maintain a healthy lifestyle by regularly hitting the gym, prioritizing both mental and physical well-being.</p>
           </div>
     </div>
-    <div className='flex flex-row flex-grow justify-around'> 
-    <div className='mt-4 left-2' style={{borderRadius:'55% 45% 18% 82% / 30% 69% 31% 70%', backgroundColor:'darkgoldenrod'}}><Image src='/rc.svg' width={100} height={100} alt='no'></Image></div>
-    <div className='mt-4 left-auto' style={{borderRadius:'55% 45% 18% 82% / 30% 69% 31% 70%', backgroundColor:'darkgoldenrod', overflow: 'hidden'}}><Image src='/next.svg' width={100} height={100} alt='no'></Image></div>
-    <div className='mt-4 left-auto' style={{borderRadius:'55% 45% 18% 82% / 30% 69% 31% 70%', backgroundColor:'darkgoldenrod'}}><Image src='/rc.svg' width={100} height={100} alt='no'></Image></div>
-    </div>
+     
     </main>
      
     <footer className="flex-shrink-0 py-4 bg-gray-600 border-spacing-1 border-2 border-blue-200 text-white text-center">
