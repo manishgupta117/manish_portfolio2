@@ -3,17 +3,39 @@
 @tailwind utilities;
 
  .main{
-  background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,23,251,1) 0%, rgba(248,179,179,1) 48%, rgba(248,179,178,0.9790849445246849) 61%, rgba(249,84,53,1) 100%, rgba(248,192,118,1) 100%, rgba(236,146,20,1) 100%);
- }
+  
+  /*background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,23,251,1) 0%, rgba(248,179,179,1) 48%, rgba(248,179,178,0.9790849445246849) 61%, rgba(249,84,53,1) 100%, rgba(248,192,118,1) 100%, rgba(236,146,20,1) 100%);
+ */
+ background-image: url("../bg-img/bg_bggenerator_com.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .main2 {
+  background-image: url("../bg-img/about.jpg");
+
+  /* Full height */
+  height: 100%;
+   
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*
   background: linear-gradient(90deg, #d7f5db 0%, #f5e6e6 100%);
- 
+ */
 }
 
  
   
  .main2:hover{
+   
    transition-duration: 1000ms;
    transition-timing-function:  ease-in-out;
    box-shadow: 0 0 50px 15px #bfdff1;
@@ -32,7 +54,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,23,251,1) 0%,
         opacity: 1;
     }
  }
- .text_color{
+ /*.text_color{
  
 background: repeating-linear-gradient(to right, #8890f9 0%, #ef8987 100%);
 -webkit-background-clip: text;
@@ -40,7 +62,7 @@ background: repeating-linear-gradient(to right, #8890f9 0%, #ef8987 100%);
  }
  .text_color:hover{
    text-shadow: #bfdff1;
- }
+ }*/
  .vl {
    border-left: 6px solid green;
    height: 500px;
@@ -52,4 +74,8 @@ background: repeating-linear-gradient(to right, #8890f9 0%, #ef8987 100%);
 
  div.card > *{
   background: #cacbcb;
+ }
+
+ #background{
+  background-color:#e1d7f9;
  }
