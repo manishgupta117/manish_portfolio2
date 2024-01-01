@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import React from 'react'
-import { data } from '@/constants/data'
+import Image from 'next/image';
+import { data } from '@/constants/data';
+
 export default function Page() {
   return (
     <div className='h-full main'>
