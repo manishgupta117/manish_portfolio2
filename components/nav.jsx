@@ -3,7 +3,7 @@ import Link from 'next/link'
  
  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin ,faGithub,faLeetCode } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin ,faGithub} from '@fortawesome/free-brands-svg-icons'
 
 export default function NavBar() {
      
