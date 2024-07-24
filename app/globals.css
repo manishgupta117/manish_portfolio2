@@ -8,7 +8,7 @@
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(175,23,251,1) 0%, rgba(248,179,179,1) 48%, rgba(248,179,178,0.9790849445246849) 61%, rgba(249,84,53,1) 100%, rgba(248,192,118,1) 100%, rgba(236,146,20,1) 100%);
  */
  /*background-image: url("../bg-img/bg_bggenerator_com.png");*/
-background-image: linear-gradient(to right top, #2f2a2d, #34282e, #3a262d, #40242b, #452227, #452024, #451d21, #451b1e, #41181d, #3c151b, #38131a, #331018);  height: 100%;
+background-image: linear-gradient(to right top, #e9c8dc, #e5c0d3, #f7d1df, #e5bdc7, #dfc2d6, #f1cfd2, #d5bcbf, #e5cccd, #dcc5c7, #dfc1c5, #e5bac2, #edcdd4);  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
