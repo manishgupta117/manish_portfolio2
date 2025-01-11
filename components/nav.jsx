@@ -1,42 +1,58 @@
 'use client'
+
 import Link from 'next/link'
- 
- 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin ,faGithub} from '@fortawesome/free-brands-svg-icons'
+import { Github, Linkedin, Home, FolderGit2 } from 'lucide-react'
 
 export default function NavBar() {
-     
-   
+  return (
+    <div className="px-4 py-2">
+      <nav className="max-w-6xl mx-auto bg-white/80 backdrop-blur-md border border-gray-200 rounded-2xl shadow-lg px-6 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo/Home Section */}
+          <Link href="/">
+            <div className="flex items-center gap-2 group">
+              <Home className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+              <span className="font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">
+                Portfolio
+              </span>
+            </div>
+          </Link>
 
-    return (
-        <div className='rounded-xl'>
-            <nav id='background' className='flex justify-between items-center py-4 rounded-xl border-2 border-blue-300 text-center'>
-                <div>
-                    <Link href='/'>
-                        <span className='text-black hover:text-blue-300 duration-100 font-bold text-xl cursor-pointer ml-2'>
-                            Home
-                        </span>
-                    </Link>
-                </div>
-                <div className='flex mr-1'>
-                    <Link href='/projects'>
-                        <span className='text-gray-500 hover:text-blue-400 duration-200 font-bold text-xl px-4 cursor-pointer'>
-                            Projects
-                        </span>
-                    </Link>
-                    <span className='text-gray-500 hover:text-blue-500 duration-200 font-bold text-xl px-4 cursor-pointer hover:fill-blue-500'>
-                        <Link href={'https://www.linkedin.com/in/manish-gupta-a1b0bb222/'} className='fill-blue-500'> <FontAwesomeIcon icon={faLinkedin} className='fill-blue-500' /></Link>
-                    </span>
-                    <span className='text-gray-500 hover:text-blue-500 duration-200 font-bold text-xl px-4 cursor-pointer'>
-                        <Link href={'https://github.com/wideputin117'}><FontAwesomeIcon icon={faGithub} className='fill-blue-500' /></Link>
-                    </span>
-                    {/* <span className='text-gray-500 hover:text-blue-500 duration-200 font-bold text-xl px-4 cursor-pointer'>
-                        <Link href={'https://github.com/wideputin117'}><FontAwesomeIcon icon={faLeetCode} className='fill-blue-500' /></Link>
-                    </span> */}
-                     
-                </div>
-            </nav>
+          {/* Navigation Links */}
+          <div className="flex items-center gap-6">
+            {/* Projects Link */}
+            <Link href="/projects">
+              <div className="flex items-center gap-2 group">
+                <FolderGit2 className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+                <span className="font-medium text-gray-600 group-hover:text-blue-600 transition-colors">
+                  Projects
+                </span>
+              </div>
+            </Link>
+
+            {/* Social Links */}
+            <div className="flex items-center gap-4">
+              <Link 
+                href="https://www.linkedin.com/in/manish-gupta-a1b0bb222/"
+                className="p-2 rounded-full hover:bg-blue-50 transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+              </Link>
+              
+              <Link 
+                href="https://github.com/wideputin117"
+                className="p-2 rounded-full hover:bg-blue-50 transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+              </Link>
+            </div>
+          </div>
         </div>
-    );
+      </nav>
+    </div>
+  )
 }
