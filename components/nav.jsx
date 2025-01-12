@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { Github, Linkedin, Home, FolderGit2 } from 'lucide-react'
+import { Github, Linkedin, Home, FolderGit2, TerminalSquare } from 'lucide-react'
+import Image from 'next/image'
 
 export default function NavBar() {
   return (
@@ -48,6 +49,35 @@ export default function NavBar() {
                 rel="noopener noreferrer"
               >
                 <Github className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+              </Link>
+
+              <Link 
+                href="https://leetcode.com/u/clownhot_96/"
+                className="p-2 rounded-full hover:bg-yellow-50 transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image 
+                  src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" 
+                  alt="LeetCode" 
+                  width="24" 
+                  height="24" 
+                  className="group-hover:scale-110 transition-transform"
+                />
+              </Link>
+               <Link 
+                href="https://www.hackerrank.com/profile/takermanish7"
+                className="p-2 rounded-full hover:bg-green-50 transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image 
+                  src="https://img.icons8.com/color/48/000000/hackerrank.png" 
+                  alt="Hackerrank" 
+                  width="24" 
+                  height="24" 
+                  className="group-hover:scale-110 transition-transform"
+                />              
               </Link>
             </div>
           </div>
