@@ -117,7 +117,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6 px-4">
         <div className="max-w-4xl mx-auto text-center">
-        <p>&copy; {new Date().getFullYear()} Manish&apos;s Portfolio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Manish&apos;s Portfolio. All rights reserved by Manish.</p>
         </div>
       </footer>
     </div>
