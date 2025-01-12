@@ -14,7 +14,7 @@ export default function ProjectsPage() {
             My Projects
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A collection of my recent work and personal projects
+            A collection of my recent work and personal projects main
           </p>
         </div>
 
