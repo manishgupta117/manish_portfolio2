@@ -45,10 +45,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Hello, I'm Manish, a passionate MERN Stack Developer with a knack for crafting dynamic web applications. 
-              With a strong foundation in MongoDB, Express.js, React, and Node.js, I bring ideas to life by seamlessly 
-              merging front-end and back-end technologies. My commitment to clean code and responsive design ensures 
-              that every project I undertake is user-friendly and performs flawlessly.
+            Hello, I&apos;m Manish, a passionate MERN Stack Developer with a knack for crafting dynamic web applications. 
+            With a strong foundation in MongoDB, Express.js, React, and Node.js, I bring ideas to life by seamlessly 
+            merging front-end and back-end technologies. My commitment to clean code and responsive design ensures 
+            that every project I undertake is user-friendly and performs flawlessly.
             </p>
           </div>
         </section>
@@ -90,8 +90,8 @@ export default function Home() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold">Education</h2>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="font-semibold text-xl mb-2">Bachelor's in Computer Science</h3>
-                  <p className="text-gray-600">Himgiri Zee University, 2023</p>
+                <h3 className="font-semibold text-xl mb-2">Bachelor&apos;s in Computer Science</h3>
+                <p className="text-gray-600">Himgiri Zee University, 2023</p>
                   <p className="mt-4 text-gray-600">
                     Graduated with a strong foundation in computer science and problem-solving skills,
                     preparing for a successful career in technology.
@@ -117,7 +117,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; {new Date().getFullYear()} Manish's Portfolio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Manish&apos;s Portfolio. All rights reserved.</p>
         </div>
       </footer>
     </div>
