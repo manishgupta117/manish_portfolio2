@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Mail, Github, Linkedin } from 'lucide-react'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,15 +16,23 @@ export default function Home() {
                 </h1>
                 <h2 className="text-2xl text-gray-600">Web Developer</h2>
                 <div className="flex gap-4 justify-center md:justify-start">
+                <Link href="https://github.com/wideputin117" target="_blank" rel="noopener noreferrer">
                   <button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
                     <Github className="w-6 h-6" />
                   </button>
+                </Link>
+
+                <Link href="https://www.linkedin.com/in/manish-gupta-a1b0bb222/" target="_blank" rel="noopener noreferrer">
                   <button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
                     <Linkedin className="w-6 h-6" />
                   </button>
+                </Link>
+
+                <Link href="mailto:takermanish7@gmail.com">
                   <button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
                     <Mail className="w-6 h-6" />
                   </button>
+                </Link>
                 </div>
               </div>
               <div className="relative">
