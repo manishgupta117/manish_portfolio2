@@ -211,44 +211,11 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-center mb-16">About Me</h2>
             <div className="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <p className="text-lg text-gray-600 leading-relaxed">
-                Hello, I'm Manish, a passionate MERN Stack Developer with a knack for crafting dynamic web applications. 
+                Hello, I&#39;m Manish, a passionate MERN Stack Developer with a knack for crafting dynamic web applications. 
                 With a strong foundation in MongoDB, Express.js, React, and Node.js, I bring ideas to life by seamlessly 
                 merging front-end and back-end technologies. My commitment to clean code and responsive design ensures 
                 that every project I undertake is user-friendly and performs flawlessly.
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Tech Stack */}
-        <section className="py-32 px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-16">Tech Stack</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              {[
-                { src: '/db.svg', alt: 'MongoDB', title: 'MongoDB' },
-                { src: '/node.svg', alt: 'Node.js', title: 'Node.js' },
-                { src: '/rc.svg', alt: 'React', title: 'React' },
-                { src: '/ex.svg', alt: 'Express', title: 'Express' },
-                { src: '/next.svg', alt: 'Next.js', title: 'Next.js' },
-                { src: '/tlwnd.svg', alt: 'Tailwind', title: 'Tailwind' }
-              ].map((tech, index) => (
-                <div key={index} className="group relative">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-500"></div>
-                  <div className="relative flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-lg group-hover:shadow-xl transition duration-300">
-                    <Image
-                      src={tech.src}
-                      alt={tech.alt}
-                      width={80}
-                      height={80}
-                      className="transition-transform duration-300 group-hover:scale-110"
-                    />
-                    <span className="mt-4 font-medium text-gray-600 group-hover:text-gray-900 transition-colors">
-                      {tech.title}
-                    </span>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>
@@ -260,36 +227,12 @@ export default function Home() {
               <div className="space-y-6">
                 <h2 className="text-4xl font-bold">Education</h2>
                 <div className="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                  <h3 className="font-semibold text-2xl mb-4">Bachelor's in Computer Science</h3>
+                  <h3 className="font-semibold text-2xl mb-4">Bachelor&#39;s in Computer Science</h3>
                   <p className="text-gray-600 text-lg mb-4">Himgiri Zee University, 2023</p>
                   <p className="text-gray-600">
                     Graduated with a strong foundation in computer science and problem-solving skills,
                     preparing for a successful career in technology.
                   </p>
-                </div>
-              </div>
-              
-              <div className="space-y-6">
-                <h2 className="text-4xl font-bold">Interests</h2>
-                <div className="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                  <ul className="space-y-4 text-gray-600">
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      <span>Reading tech blogs to stay updated with latest trends</span>
-                    </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      <span>Playing chess to enhance strategic thinking</span>
-                    </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      <span>Watching movies and anime for entertainment</span>
-                    </li>
-                    <li className="flex items-center space-x-3">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      <span>Regular gym workouts for physical fitness</span>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -300,7 +243,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} Manish's Portfolio. All rights reserved.</p>
+          <p className="text-gray-400">&copy; {new Date().getFullYear()} Manish&#39;s Portfolio. All rights reserved.</p>
         </div>
       </footer>
     </div>
