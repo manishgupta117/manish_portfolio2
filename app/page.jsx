@@ -221,7 +221,7 @@ export default function Home() {
         </section>
 
         {/* Education & Interests */}
-        <section className="py-32 bg-white px-4">
+        {/* <section className="py-32 bg-white px-4">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               <div className="space-y-6">
@@ -235,9 +235,69 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+              <div className="space-y-4">
+               <h2 className="text-3xl font-bold">Interests</h2>
+                    <div className="bg-gray-50 p-6 rounded-lg">
+                    <ul className="space-y-3 text-gray-600">
+                     <li>• Reading tech blogs to stay updated with latest trends</li>
+                     <li>• Playing chess to enhance strategic thinking</li>
+                     <li>• Watching movies and anime for entertainment</li>
+                     <li>• Regular gym workouts for physical fitness</li>
+                   </ul>
+                 </div>
+               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+<section className="py-24 bg-gradient-to-br from-white to-gray-50 px-4">
+      <div className="max-w-4xl mx-auto transform hover:scale-[1.02] transition-transform duration-500">
+        <div className="grid md:grid-cols-2 gap-12">
+          {/* Education Section */}
+          <div className="space-y-8 transform hover:-translate-y-2 transition-transform duration-300">
+            <h2 className="text-4xl text-center font-bold text-gray-800 relative after:content-[&#39;&#39;] after:absolute after:-bottom-2 after:left-0 after:w-20 after:h-1 after:bg-blue-500">
+              Education
+            </h2>
+            <div className="group bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+              <h3 className="font-semibold text-2xl mb-4 text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+                Bachelor&#39;s in Computer Science
+              </h3>
+              <p className="text-gray-600 text-lg mb-4 font-medium">
+                Himgiri Zee University, 2023
+              </p>
+              <p className="text-gray-600 leading-relaxed group-hover:text-gray-800 transition-colors duration-300">
+                Graduated with a strong foundation in computer science and problem-solving skills,
+                preparing for a successful career in technology.
+              </p>
+            </div>
+          </div>
+
+          {/* Interests Section */}
+          <div className="space-y-8 transform hover:-translate-y-2 transition-transform duration-300">
+            <h2 className="text-4xl text-center font-bold text-gray-800 relative after:content-[&#39;&#39;] after:absolute after:-bottom-2 after:left-0 after:w-20 after:h-1 after:bg-green-500">
+              Interests
+            </h2>
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100">
+              <ul className="space-y-4">
+                {[
+                  "Reading tech blogs to stay updated with latest trends",
+                  "Playing chess to enhance strategic thinking",
+                  "Watching movies and anime for entertainment",
+                  "Regular gym workouts for physical fitness"
+                ].map((interest, index) => (
+                  <li key={index} className="flex items-center space-x-3 group">
+                    <span className="w-2 h-2 bg-green-500 rounded-full group-hover:w-3 group-hover:h-3 transition-all duration-300" />
+                    <span className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">
+                      {interest}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
       </main>
 
       {/* Footer */}
